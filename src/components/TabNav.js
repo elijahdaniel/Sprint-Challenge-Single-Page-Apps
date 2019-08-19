@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Tab, Menu, Icon } from 'semantic-ui-react'
+import React from 'react'
+import { Menu } from 'semantic-ui-react'
 import { NavLink } from 'react-router-dom'
 
 // TODO: Add missing tabs below

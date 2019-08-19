@@ -3,7 +3,7 @@ import Axios from 'axios'
 import { Card, Icon, Image } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
-export default function SearchForm({ onSearch }) {
+export default function SearchForm() {
   // TODO: Add stateful logic for query/form data
   const [name, setName] = useState('')
   const [search, setSearch] = useState([])

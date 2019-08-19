@@ -5,13 +5,13 @@ export default function LocationCard(props) {
   console.log('props', props)
   return (
     <Card>
-      <Card.Content>
-        <Card.Header>{props.location.name}</Card.Header>
+      <CardContent>
+        <CardHeader>{props.location.name}</CardHeader>
         <Card.Meta>Planet {props.location.dimension}</Card.Meta>
-      </Card.Content>
-      <Card.Content extra>
+      </CardContent>
+      <CardContent extra>
         {props.location.residents.length} Residents
-      </Card.Content>
+      </CardContent>
     </Card>
   )
 }
